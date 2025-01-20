@@ -1,0 +1,668 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}.navation-bar{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px 20px 40px;
+}
+.M{
+    color:aqua;
+    font-weight: bold;
+}
+.art{
+    color: grey;
+}
+.title{
+    font-size: x-large;
+}
+.search-bar{
+    border: none;
+    width: 50px;
+}
+
+.nav{
+    outline: none;
+    border: none;
+    font-size: medium;
+    font-weight: 700;
+    background-color: white;
+    margin-left: 15px;
+}
+ .dress button:hover    {
+    color: aqua;
+}
+.dress{
+    background-image: url(../img/blue-smooth-wall-textured-background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    width: 100%;
+    height: 100vh;
+    color: black;
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+
+}
+.dresses-jeans{
+    letter-spacing: 7px;
+    font-size: x-large;
+    
+}
+.sale,.as{
+    color: aqua;
+}
+.dress button{
+    margin: 10px;
+    padding: 10px;
+    outline: none;
+    border: none;
+    border: 1px solid aqua;
+    background-color: transparent;
+    color: white;
+    font-weight: 600;
+}
+.dress-jean{
+    color: gainsboro;
+    font-weight: lighter;
+
+}
+.from-ourfamous{
+    color: white;
+    font-weight: lighter;
+}
+.services{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 100px 0px 100px 0px; /* margin*/
+    justify-content: center;
+    gap: 30px;
+    
+}
+.services-img{
+    width: 50px;
+    height: 50px;
+}
+.service-des{
+    display: grid;
+    row-gap: 40px;
+  /* margin-top: 10px; */
+   text-align: center;
+  
+}
+.service{
+    margin-top: 20px;
+}
+
+.setting,.moneyback,.worldwide,.worldwideshipping{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+.new-collection{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+}
+.collection-img{
+    width: 300px;
+    height: 350px;
+}
+
+.new{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin: 20px 0px 0px 0px;
+    
+    justify-content: center;
+}
+.title{
+    display: block ;
+    flex-direction: row;
+    justify-content: center;
+}
+.newcl{
+    display: grid;
+    row-gap: 100px;
+    background-color:skyblue;
+    padding: 20px 0px 60px 0px;
+}
+.bluetshirt,.womanshirt,.yellowtshirt,.coollingerie{
+    background-color: white;
+}
+.cool{
+    background-color: rgb(41, 24, 3);
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    font-size: large;
+    padding-left: 10px;
+    color: white;
+}
+.doller{
+    background-color: saddlebrown;
+    padding-right: 10px;
+}
+.cool-doller:hover{
+    background-color: aqua;
+}
+
+.collection-img:hover{
+    border: 2px solid white;
+}
+/* .lines{
+    width: 50px;
+    height: 20px;
+    border: 2px solid green;
+    color: green;
+
+} */
+
+.featured,.featured-btn{
+    display: flex;
+    justify-content: center;
+}
+.featured{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+ padding: 30px 0px 0px 20px;
+}
+.feat-img{
+    width: 300px;
+    height: 350px;
+}
+.featured-fet{
+    display: grid;
+    row-gap: 40px;
+}
+.featured-btn{
+    padding: 30px 0px 50px 0px;
+}
+.feat-btn{
+    margin: 5px;
+    background-color: white;
+    border: none;
+    border: 2px solid black;
+    padding: 3px 5px 3px 5px;
+}
+.feat-btn:hover{
+    background-color: aqua;
+    color: white;
+    border: none;
+}
+.feat-products{
+
+    display: grid;
+    grid-template-columns:auto auto auto auto;
+    justify-content: center;
+    padding-bottom: 50px;
+    gap: 40px;
+}
+
+.product{
+    background-color: skyblue;
+    position: relative;
+}
+.product-btn{
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    display: flex;  
+    gap: 160px;
+}
+.new-btn,.sale-btn{
+    padding: 6px 10px 6px;
+    outline:none;
+    border: none;
+    border: 2px solid black;
+}
+.sale-btnN{
+    position: absolute;
+    left: 220px;
+    padding: 6px 10px 6px;
+    border: 2px solid black;
+
+
+}
+.end-of-season{
+    background-image: url(../img/elevators\ background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 60vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    font-family: sans-serif;
+}
+.best-sellers{
+    background-color: skyblue;
+}
+.title-bestsellers{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    justify-content: center;
+    padding: 30px 0px 40px 0px;
+}
+.customer-review{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+padding: 40px 0px 0px 0px;
+
+}
+.cust-review{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.lines{
+    height: 5px;
+    width: 300px;
+    background-color: aqua;
+    
+}
+.customer-review-paragraph{
+    text-align: center;
+    width: 800px;
+}
+.name-customer{
+    color: aqua;
+    font-weight: 900;
+}
+.customer-image{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.customer-img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 5px solid black;
+}
+.customer-img1{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 5px solid aqua;
+}
+.cust-img{
+    padding-top: 20px;
+    display: flex;
+    gap: 20px;
+    padding: 0px 0px 20px 0px;
+}
+.newsletter{
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+}
+.newsletter h1{
+    padding: 50px 0px 10px 0px;
+}
+.liness{
+    width: 200px;
+    height: 3px ;
+    background-color: black;
+}
+.newsletter input{
+    width: 400px;
+    height: 40px;
+    margin: 20px 0px 20px 0px;
+    padding-left: 10px;
+    border: none;
+    outline: none;
+    border: 2px solid white;
+    border-radius: 10px 0px 0px 10px;
+
+}
+.email{
+    position: absolute;
+}
+.input-box{
+    display: flex;
+    align-items: center;
+}
+.caret-parent{
+    display: flex;
+    border: 1px solid white;
+ padding: 9px;
+ border-radius: 0px 10px 10px 0px;
+}
+.caretimg{
+    width: 20px ;
+    height: 20px;
+    padding: 0px;
+    color: white;
+}
+.ourpartner{
+    background-color: rgb(205, 229, 239);
+}
+ .university-imgs{
+    width: 300px;
+    height: 200px;
+    border:  2px solid aqua;
+    padding: 20px 30px 20px 30px;
+    background-color: white;
+    margin-bottom: 50px;
+ }
+.university{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    gap: 30px;
+}
+.our-partner-title{
+    display: flex;
+    justify-content: center;
+    padding: 30px 0pc 40px 0px;
+}
+.title-latestnews{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+}
+ h1{    font-size: 40px;
+
+}
+.news-img{
+    width: 400px;
+    height: 300px;
+}
+.map-news,.library-news,.bus-news{
+    width: 400px;
+    height: 700px;
+}
+.news{
+    display: flex;
+    flex-wrap: wrap;
+   padding-top: 80px;
+    justify-content: center;
+    gap: 30px;
+}
+.map-news button,.library-news button,.bus-news button{
+    margin-top: 20px;
+    outline: none;
+    border: none;
+    background-color: aqua;
+    padding: 15px;
+    color: white;
+    font-weight: 700;
+}
+.map-content{
+    padding: 0px 0px 40px 0px;
+}
+.map-content p{
+    font-size: large;
+    font-weight: 600;
+}
+.get-in-touch{
+    background-color: darkslategrey;
+    color: white;
+}
+.social-media-icon{
+    width: 30px;
+    height: 30px;
+    color: white;
+    border: 2px solid white;
+    margin-right: 10px;
+}
+.k{
+    color: aqua;
+    font-size: xxx-large;
+    font-weight: 300;
+}
+.aquaclr{
+    color: aqua
+}
+.get{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+}
+.dokens{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+.dokan{
+    width: 600px;
+    
+}
+
+.dokan h1{
+    font-size: xx-large;
+    font-weight: 300;
+}
+.fill-details{
+    width: 700px;
+    text-align: center;
+    margin-top: 20px;
+
+}
+.doken-para{
+    padding: 20px 0px 20px 0px
+}
+.inputs{
+    width: 200px;
+    height: 40px;
+    background-color: transparent;
+    outline: none;
+    border: 2px solid white;
+    
+
+}
+.input{
+    width: 420px;
+    height: 100px;
+    margin-top: 20px;
+    margin-left: 140px;
+    background-color:transparent ;
+    outline: none;
+    /* border: none; */
+    border: 2px solid white;
+
+}
+.our-partner-title{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.input::placeholder,.inputs::placeholder{
+    color: white;
+    font-size: 15px;
+    padding-left: 10px;
+}
+.inputs-btn{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.input:hover::placeholder,.inputs:hover::placeholder  {
+    color: aqua;
+}
+
+.office-details{
+    margin: 20px 0px 20px 0px;
+}
+.input:hover,.inputs:hover{
+    border: 2px solid aqua;
+    color: aqua;
+}
+.line{
+    height: 5px ;
+    width: 300px;
+background-color: aqua;
+}
+.send-btn{
+    width: 100px;
+    margin-left: 150px;
+    margin-top: 20px;
+    padding: 10px;
+    color: white;
+    background-color: aqua;
+    border: none;
+    outline: none;
+
+
+}
+@media screen and (max-width:500px)
+{
+    /* nav bar media; */
+
+.navation-bar{
+    display: flex;
+     width: 100%;
+    justify-content: space-between;
+    gap: 100px;
+    width: 100%;
+
+    
+}
+/* .M{
+    color:aqua;
+    font-weight: bold;
+}
+.art{
+    color: grey;
+}
+.title{
+    font-size: small;
+}
+.nav-items{
+    display: flex;
+    gap: 5px;
+}
+.nav{
+    
+    outline: none;
+    border: none;
+    font-size: 6px;
+    font-weight: 700;
+    background-color: white;
+    margin-left: 1px;
+} */
+/* Hero section; */
+.feat-products{
+
+    display: flex;
+    flex-direction:flex;
+    flex-wrap: wrap;
+    /* grid-template-columns:1fr 1fr 1fr 1fr; */
+    justify-content: center;
+    padding-bottom: 50px;
+    gap: 40px;
+}
+.customer-review-paragraph{
+    text-align: center;
+    width: 500px;
+}
+/* .dress{
+    background-image: url(../img/blue-smooth-wall-textured-background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    width: 100%;
+    height: 100vh;
+    color: black;
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+
+}
+.dresses-jeans{
+    letter-spacing: 1px;
+    font-size: small;
+    
+}
+.sale,.as{
+    color: aqua;
+}
+.dress button{
+    margin: 10px;
+    padding: 10px;
+    outline: none;
+    border: none;
+    border: 1px solid aqua;
+    background-color: transparent;
+    color: white;
+    font-weight: 600;
+}
+.dress-jean{
+    color: gainsboro;
+    font-weight: lighter;
+
+}
+.from-ourfamous{
+    color: white;
+    font-weight: lighter;
+} */
+
+
+
+
+
+
+}
+@media only screen and (min-device-width:501px) and (max-device-width:1024px)
+{
+    .feat-products{
+
+        display: flex;
+        flex-direction:flex;
+        flex-wrap: wrap;
+        /* grid-template-columns:1fr 1fr 1fr 1fr; */
+        justify-content: center;
+        padding-bottom: 50px;
+        gap: 40px;
+    }
+    .news{
+        display: flex;
+        flex-wrap: wrap;
+       padding-top: 80px;
+        justify-content: center;
+        gap: 30px;
+    }
+}
