@@ -3,12 +3,16 @@
     padding: 0px;
     box-sizing: border-box;
 }.navation-bar{
+    background-color: rgb(255, 255, 255);
     display: flex;
     justify-content: space-between;
     padding: 20px 40px 20px 40px;
 }
 .M{
-    color:aqua;
+    color: rgb(76, 182, 118); /* Gold */
+
+
+    
     font-weight: bold;
 }
 .art{
@@ -27,14 +31,16 @@
     border: none;
     font-size: medium;
     font-weight: 700;
+    color: rgb(0, 0, 0);
     background-color: white;
     margin-left: 15px;
 }
  .dress button:hover    {
-    color: aqua;
+    color: rgb(255, 215, 0); /* Gold */
+    ;
 }
 .dress{
-    background-image: url(../img/blue-smooth-wall-textured-background.jpg);
+    background-image: url(../img/new.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
@@ -44,18 +50,19 @@
    display: flex;
    flex-direction: column;
    flex-wrap: wrap;
-   justify-content: center;
-   align-items: center;
-   text-align: center;
+   justify-content:flex-start;
+   align-items:first baseline;
+   text-align:center;
 
 }
 .dresses-jeans{
     letter-spacing: 7px;
     font-size: x-large;
-    
+
 }
-.sale,.as{
-    color: aqua;
+
+.sale,.as,.from-ourfamous,.dress-jean{
+    color: rgb(255, 215, 0);
 }
 .dress button{
     margin: 10px;
